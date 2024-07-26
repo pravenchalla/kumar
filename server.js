@@ -4,7 +4,7 @@ const mongoose = require('mongoose')
 const app = express();
 app.use(express.json());
 const port = 4568;
-const mongoUrl = "mongodb+srv://praveen:praveen@cluster0.y6h6jpt.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+const mongoUrl = ""
 
 mongoose.connect(mongoUrl, {})
 mongoose.connection.on('connected',()=>{
