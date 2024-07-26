@@ -1,5 +1,5 @@
 const jwt = require('jsonwebtoken')
-const secretkey = 'praveenK'
+const secretkey = 'Celzene'
 
 const protect = async (req,res,next) => {
     let token;
